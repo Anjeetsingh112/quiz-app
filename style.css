@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&family=Smooch+Sans:wght@200&display=swap');
+* {
+margin : 0; 
+padding: 0;
+box-sizing: border-box; 
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+scroll-behavior: smooth;
+
+}
+
+html, body {
+height: 100%; 
+width: 100%; 
+background: linear-gradient(rgb(38, 64, 78) 0%, rgb(24, 55, 75) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+    width: 90%;
+    max-width:37.5rem;
+    background: linear-gradient(rgb(36, 73, 80) 0%, rgba(135, 164, 172, 0.5) 100%);
+    padding: 2rem;
+    border-radius: 4px;
+ 
+    
+    
+}
+h1{
+    font-size: 1.5rem;
+    color: rgb(240, 240, 240);
+    font-weight: 700;
+    border-bottom:2rem ;
+    letter-spacing: 2px;
+}
+.quiz {
+    padding:20px 0;
+}
+.quiz p{
+    font-size: 18px;
+    color: rgb(240, 240, 240);
+    font-weight: 500;
+}
+
+.btn{
+    color: rgb(240, 240, 240);
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: start;
+    box-shadow: -8px -8px 15px rgba(-255,-255,-255,0.1);
+}
+.btn:hover:not([disabled]){
+    background-color: #222;
+    color: rgb(240, 240, 240);
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: rgb(60, 60, 60);
+    color: rgb(240, 240, 240);
+    font-weight: 500;
+    width: 9.375rem;
+    border:0;
+    padding:10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    box-shadow: -8px -8px 15px rgba(-255,-255,-255,0.1);
+}
+.correct{
+    background: #92e6b6;
+}
+.incorrect{
+    background: #db7d7d;
+}
